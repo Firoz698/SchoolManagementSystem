@@ -14,6 +14,9 @@ namespace SchoolManagementSystem.Controllers
 {
     [Authorize(Roles = "Employee,Admin")]
 
+
+
+
     public class CoursesController : Controller
     {
         private readonly ICourseRepository _courseRepository;
